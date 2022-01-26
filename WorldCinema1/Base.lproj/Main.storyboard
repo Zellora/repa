@@ -294,12 +294,28 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Кадры" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5qi-MM-8Yi">
-                                                <rect key="frame" x="8" y="745" width="100" height="35"/>
+                                                <rect key="frame" x="8" y="740" width="100" height="35"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="30"/>
                                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
+                                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="CwQ-JV-RPf">
+                                                <rect key="frame" x="-18" y="778" width="432" height="128"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <subviews>
+                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Rectangle 19" translatesAutoresizingMaskIntoConstraints="NO" id="hll-fg-Ad1">
+                                                        <rect key="frame" x="8" y="0.0" width="240" height="128"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    </imageView>
+                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Rectangle 20" translatesAutoresizingMaskIntoConstraints="NO" id="l1m-nd-sBa">
+                                                        <rect key="frame" x="249" y="0.0" width="240" height="128"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    </imageView>
+                                                </subviews>
+                                                <viewLayoutGuide key="contentLayoutGuide" id="LW9-0V-1pJ"/>
+                                                <viewLayoutGuide key="frameLayoutGuide" id="Zqf-cq-QEM"/>
+                                            </scrollView>
                                         </subviews>
                                         <color key="backgroundColor" red="0.082102365790000006" green="0.051156617699999997" blue="0.043135441839999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                     </view>
@@ -416,6 +432,8 @@
         <image name="Background" width="375" height="85"/>
         <image name="Group 56" width="214" height="114"/>
         <image name="Rectangle 1" width="132" height="176"/>
+        <image name="Rectangle 19" width="128" height="72"/>
+        <image name="Rectangle 20" width="128" height="72"/>
         <image name="Rectangle 5" width="132" height="176"/>
         <image name="Rectangle 6" width="131" height="176"/>
         <image name="Rectangle 8" width="272" height="176"/>
